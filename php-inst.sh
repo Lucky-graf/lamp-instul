@@ -1,5 +1,6 @@
 #!/bin/bash
 echo PHP instal and you can Chek info 'for' server https:\\IP\info,php
+sleep 5s
 sudo apt install php libapache2-mod-php
 sudo systemctl restart apache2
 sudo apt install php-fpm
