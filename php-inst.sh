@@ -1,5 +1,5 @@
 #!/bin/bash
-echo PHP instal and you can Chek info 'for' server https:\\IP\info,php
+echo PHP instal and you can Chek info 'for' server https:\\IP\info ,php after deploy
 sleep 5s
 sudo apt install php libapache2-mod-php
 sudo systemctl restart apache2
