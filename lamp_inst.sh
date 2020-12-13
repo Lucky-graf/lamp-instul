@@ -8,10 +8,10 @@ main() {
     # Create progress bar
     setup_scroll_area
     for i in {1..99}
-        sleep 5
         draw_progress_bar $i
+        sleep 5
     done
-    destroy_scroll_area
+        destroy_scroll_area
 }
 
 
