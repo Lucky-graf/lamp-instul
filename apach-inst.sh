@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Now Apache instull
-sleep 5s
+sleep 5
 sudo apt update
 sudo apt install apache2
 sudo ufw app list
