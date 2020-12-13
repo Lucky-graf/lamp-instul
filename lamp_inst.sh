@@ -23,10 +23,12 @@ main() {
     setup_scroll_area
     for i in {1..99}
     do
+    sleep 0.1
     generate_some_output_and_sleep
     draw_progress_bar $i
     done
     destroy_scroll_area
+    echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
 }
 
-echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
+
