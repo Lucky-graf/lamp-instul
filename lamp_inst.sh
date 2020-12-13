@@ -1,4 +1,5 @@
-#!/bin/bash
+#!bin/bash/
+time=$(date +%s)
 source ./progress/progress_bar.sh
 
 main() {
@@ -22,3 +23,4 @@ sudo bash mySQL-set.sh
 sudo bash php-inst.sh
 sudo bash certbot.sh
 destroy_scroll_area
+echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
