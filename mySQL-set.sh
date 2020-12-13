@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Settings Your acounte 'in' MySQL
-sleep 5s
+sleep 5
 sudo mysql<<EOF
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'BOGdan16092001';
@@ -15,4 +15,5 @@ systemctl status mysql.service
 sudo mysqladmin -p root -u root version
 echo 'MySQL working'
 echo User: 'graf@localhost' \n Pasword: 'Graf1234'
+sleep 5
 echo Settings MySQL successful!
