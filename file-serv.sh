@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Edit config 'for' YOU
-sleep 5s
+sleep 5
 sudo mv lamp-instul/site.conf /etc/apache2/sites-available/site-car.conf 	#копіювати вміст 000df
 #<VirtualHost *:80>
 #ServerName www.site-car.com
