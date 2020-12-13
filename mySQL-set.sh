@@ -15,4 +15,4 @@ systemctl status mysql.service
 sudo mysqladmin -p root -u root version
 echo 'MySQL working'
 echo User: 'graf@localhost' \n Pasword: 'Graf1234'
-sleep 5s
+echo Settings MySQL successful!
