@@ -1,6 +1,6 @@
 #!bin/bash/
 time=$(date +%s)
-source ./progress/progress_bar.sh
+source /home/graf/deploy/lamp-instul/progress/progress_bar.sh
 
 main() {
     # Make sure that the progress bar is cleaned up when user presses ctrl+c
