@@ -1,4 +1,5 @@
 #!bin/bash/
+pwd
 time=$(date +%s)
 #*source /home/graf/deploy/lamp-instul/progress/progress_bar.sh
 
@@ -14,8 +15,9 @@ time=$(date +%s)
  #       destroy_scroll_area
 #}
 
-
+pwd
 sudo bash apach-inst.sh
+pwd
 sudo bash apach-actv.sh
 sudo bash file-serv.sh
 sudo bash mySQL-inst.sh
