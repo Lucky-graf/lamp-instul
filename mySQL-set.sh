@@ -3,7 +3,7 @@ echo Settings Your acounte 'in' MySQL
 sleep 5
 sudo mysql<<EOF
 SELECT user,authentication_string,plugin,host FROM mysql.user;
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'BOGdan16092001';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 FLUSH PRIVILEGES;
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 EOF
