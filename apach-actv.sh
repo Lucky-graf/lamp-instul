@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo mv /home/graf/deploy/lamp-instul/site.conf /etc/apache2/sites-available/site-car.conf 	#копіювати вміст 000df
+sudo mv /home/deploy/lamp-instul/site.conf /etc/apache2/sites-available/site-car.conf 	#копіювати вміст 000df
 echo Settings Apache
 sleep 3
 sudo a2ensite site-car	# your_domain.conf
